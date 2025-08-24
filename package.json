@@ -1,0 +1,23 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VieiraPedroN/Bookstore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VieiraPedroN/Bookstore/issues"
+  },
+  "homepage": "https://github.com/VieiraPedroN/Bookstore#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
+}
