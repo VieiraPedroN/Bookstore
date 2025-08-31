@@ -1,0 +1,53 @@
+#myCarousel .carousel-indicators {
+  list-style: none;
+}
+
+#myCarousel .carousel-inner .carousel-item {
+  height: 250px;
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.carousel-track::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+.card {
+  flex: 0 0 45%; /* 2 cards inteiros e parte do 3º */
+  margin-right: 10px;
+  background: #333;
+  color: #fff;
+  text-align: start;
+  padding: 30px 10px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+/* Botões de navegação */
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 8px 12px;
+  cursor: pointer;
+  z-index: 10;
+}
+.carousel-control.prev {
+  left: 5px;
+}
+.carousel-control.next {
+  right: 5px;
+}
